@@ -77,6 +77,7 @@ app.get('/publications', getAccessToken, function(req, res){
     })
 })
 
+// We’ve added the pending route, but calling this route from the MovieAnalyst Website will always result in a 403 Forbidden error as this client does not have the admin scope required to get the data.
 app.get('/pending', getAccessToken, function(req, res){
   request
     .get('http://localhost:8080/pending')
@@ -84,11 +85,9 @@ app.get('/pending', getAccessToken, function(req, res){
     .end(function(err, data) {
       if(data.status == 403){
         res.send(403, '403 Forbidden');
-      } else {
-        var movies = data.body;
-        res.render('pending', {movies : movies});
       }
     })
 })
+
 
 app.listen(3000);
