@@ -1,4 +1,4 @@
-# Building and Securing a Modern Backend API
+# Building and Securing a Modern Backend API - Decoupling
 
 This repo contains the completed demo code for building and securing a modern backend API
 
