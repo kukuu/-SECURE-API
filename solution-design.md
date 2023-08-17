@@ -10,7 +10,7 @@ We’ll build our backend API with NodeJS and the Express framework. To get star
 
 Before we get to writing code, let’s take care of our dependencies. Run npm install express express-jwt auth0-api-jwt-rsa-validation --save to install the dependencies we are going to need. The express dependency will pull down the express framework, express-jwt library will give us functions to work with JSON Web Tokens, and finally auth0-api-jwt-rsa-validation will provide a helper function for getting our secret key.
 
-Now that we have our dependencies in place, let’s create a new file called server.js. Since our backend API is only going to expose a few routes, we’ll write all of our code in this single file. Check out our implementation below.
+Now that we have our dependencies in place, let’s create a new file called server.js. Since our backend API is only going to expose a few routes, we’ll write all of our code in this single file. 
 
 If we launch our API server and navigate to any of the four routes we’ve created, we should get the expected response. Let’s test this by running node server and navigating to localhost:8080/movies. You should see a JSON response with the list of movie reviews and their associated data.
 
