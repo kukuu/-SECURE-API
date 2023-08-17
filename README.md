@@ -1,4 +1,4 @@
-# Building and Securing a Modern Backend API - Decoupling
+## Building and Securing a Modern Backend API - Decoupling
 
 This repo contains the completed demo code for building and securing a modern backend API
 
@@ -13,5 +13,5 @@ This exercise builds and exposes a RESTful API built with NodeJS. We are also go
 
 Enjoy!
 
-## Solution Dsign
+### Solution Dsign
 https://github.com/kukuu/-SECURE-API/blob/master/solution-design.md
